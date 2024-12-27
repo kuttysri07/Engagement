@@ -3,7 +3,7 @@ import React from "react";
 const Events = () => {
   return (
     <div>
-      <div className="flex justify-center items-center flex-col text-center">
+      <div id="Events" className="flex justify-center items-center flex-col text-center">
         <h1 className="uppercase text-orange-400 text-lg sm:text-xl tracking-wide">
           Events
         </h1>
@@ -14,10 +14,10 @@ const Events = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap justify-center ">
-            <div className="p-4 lg:w-1/3">
+            <div data-aos="fade-up" className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                  Trampoline Plate Change Ceremony
+                  Thamboolam Plate Change Ceremony
                 </h2>
                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                   02.02.2025
@@ -26,7 +26,7 @@ const Events = () => {
                   6:30 PM - 8:00 PM
                 </h1>
                 <p className="leading-relaxed mb-3">
-                  Join us for the Trampoline Plate Change ceremony as we mark
+                  Join us for the Thamboolam Plate Change ceremony as we mark
                   the joyous beginning of this beautiful journey of love and
                   togetherness. Let’s come together to witness and celebrate
                   this delightful tradition filled with laughter, blessings, and
@@ -34,7 +34,7 @@ const Events = () => {
                   more special!
                 </p>
 
-                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                <div data-aos="fade-right" className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
                   <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                     <svg
                       className="w-4 h-4 mr-1"
@@ -67,7 +67,7 @@ const Events = () => {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/3">
+            <div data-aos="fade-up" className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                   Marriage Ceremony
@@ -87,7 +87,7 @@ const Events = () => {
                   presence will add joy and meaning to this special day!
                 </p>
 
-                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                <div data-aos="fade-right" className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
                   <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                     <svg
                       className="w-4 h-4 mr-1"
